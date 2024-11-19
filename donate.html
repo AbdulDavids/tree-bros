@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Bros - Donate</title>
+    <link rel="stylesheet" href="shared.css">
+</head>
+<body>
+    <header>
+        <h1>Tree Bros 🌳</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="tracker.html">Tracker</a>
+            <a href="donate.html">Donate</a>
+            <a href="volunteer.html">Volunteer</a>
+        </nav>
+    </header>
+    <main>
+        <section id="donate">
+            <h2>Make a Donation</h2>
+            <p>Your contribution helps us plant more trees and restore our planet. Together, we can make a difference!</p>
+            
+            <form action="process-donation.html" method="POST">
+                <label for="donation-amount">Donation Amount ($):</label>
+                <input type="number" id="donation-amount" name="donation-amount" min="1" required>
+                
+                <label for="donor-name">Your Name:</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+
+                <label for="donor-email">Your Email:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+
+                <button type="submit">Donate Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Tree Bros © 2024 - Saving the planet, one tree at a time.</p>
+    </footer>
+</body>
+</html>
