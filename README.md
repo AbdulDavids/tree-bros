@@ -7,7 +7,9 @@ Check out the prototype deployed on GitHub Pages:
 ---
 
 #### **Project Overview**
+
 This is a prototype proof of concept for a a tree-planting initiative. It consists of a simple website that showcases essential features such as a tree planting tracker, donation functionality, volunteer signup, and more. The prototype is part of a project for SOE6222.
+
 ---
 
 #### **Features**
